@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            background-image: url(./images/white-2484120_1280.png);
+            background-repeat: no-repeat;
+
+
+        }
+
+        .wrapper {
+            display:flex;
+            flex-direction: column;
+            min-height: 400px;
+            background-color: transparent;
+            width: 80%;
+            margin: auto;  
+        }
+
+        .banner{
+
+            display:flex;
+            flex-direction: column;
+            min-height: 50px;
+            background-color: rgb(224, 191, 184);
+            justify-items: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            color: black;
+            
+        }
+
+        .banner img {
+            width: 100%;
+            height: 200px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+        }
+
+        .navigation{
+
+            display:flex;
+            flex-direction: row;
+            min-height: 20px;
+            background-color: #b4605b;
+            justify-items: center;
+            align-items: center;
+            margin-top: 10px;
+            justify-content: space-between;
+
+        }
+
+        .main {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sidebar {
+
+            display:flex;
+            flex-direction: column;
+            background-color: lightgoldenrodyellow;
+            flex-basis: 20%;
+            /* min-height: 10px; */
+            margin-top: 10px;
+
+        }
+
+        .body {
+
+            display:flex;
+            flex-direction: row;
+            background-color: lightgoldenrodyellow;
+            flex-basis: 75%;
+            margin-top: 10px;
+
+        }
+
+        .footer {
+
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(193,118,112,255);
+            justify-items: center;
+            align-items: center;
+        }
+
+        .body > img {
+            order: 2;
+            width: 200px;
+        }
+    </style>
+
+    <style>
+        table, th, td {
+        border: 4px solid black;
+        border-collapse: collapse;
+        }
+        
+        tr {
+        background-color: #e0bfb8;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="https://img.freepik.com/free-photo/abstract-blur-pastel-beautiful-peach-pink-color-sky-warm-tone-background-design-as-banner-slide-show-others_1258-71191.jpg" alt="">
+            <div class="centered">My Biodata</div>
+        </div>
+
+        <div class="banner">
+            
+            <table bgcolor = "black" align="center" style="width:80s%">
+                
+                <tr bgcolor = "white">
+                    <td> Name </td>
+                    <td> Jabello Kamarulzaman </td>
+                    <td> <img src="https://static.vecteezy.com/system/resources/previews/016/776/045/original/an-adorable-baby-penguin-sits-in-the-winter-snow-during-sunset-vector.jpg" alt="penguin" width="240" height="180"></td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td> Date of Birth </td>
+                    <td colspan ="2">5 April 2002</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Religion</td>
+                    <td colspan ="2">Islam</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Race</td>
+                    <td colspan ="2">Malay</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td rowspan ="4"> Address</td>
+                    <td>Street</td>
+                    <td>Jalan Payung</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Town</td>
+                    <td>Melaka</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>District</td>
+                    <td>Raub</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>State</td>
+                    <td>Kota Kinabalu</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td rowspan ="3"> Contact</td>
+                    <td>Mobile Phone</td>
+                    <td>0142347226</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Social Media</td>
+                    <td>Whatsapp</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Website</td>
+                    <td>iQiyi</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td> Course and Institution</td>
+                    <td colspan ="2">Software Engineering</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Programming Skills</td>  
+                    <td colspan ="2">Intermediate</td>
+                </tr>   
+            
+                <tr bgcolor = "white">
+                    <td>Personal Interest</td>
+                    <td colspan ="2">Coding</td>
+                </tr>
+            
+                <tr bgcolor = "white">
+                    <td>Future plan in 2024</td>
+                    <td colspan ="2">Continue studying</td>
+                </tr>
+
+            </table>
+            
+        </div>
+        <div class="footer">
+           <strong> &copy SITI HAJAR MUNIRAH BINTI KAMARULZAMAN </strong>
+        </div>
+    </div>
+</body>
+</html>
